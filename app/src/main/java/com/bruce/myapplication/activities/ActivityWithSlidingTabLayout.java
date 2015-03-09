@@ -101,8 +101,8 @@ public class ActivityWithSlidingTabLayout extends ActionBarActivity {
         @Override
         public CharSequence getPageTitle(int position) {
 
-           // Drawable drawable = MrVector.inflate(getResources(), R.drawable.vector_android);
-            Drawable drawable = getResources().getDrawable(R.drawable.ic_launcher);
+            Drawable drawable = MrVector.inflate(getResources(), R.drawable.vector_android);
+           // Drawable drawable = getResources().getDrawable(R.drawable.ic_launcher);
             drawable.setBounds(0, 0, drawable.getIntrinsicWidth(), drawable.getIntrinsicHeight());
             ImageSpan imageSpan = new ImageSpan(drawable);
             SpannableString spannableString = new SpannableString(" ");

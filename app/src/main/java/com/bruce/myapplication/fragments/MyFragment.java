@@ -40,7 +40,7 @@ public class MyFragment extends Fragment {
         View layout = inflater.inflate(R.layout.fragment_my, container, false);
         textView = (TextView) layout.findViewById(R.id.position);
         imageView = (ImageView) layout.findViewById(R.id.image);
-        Drawable drawable = MrVector.inflate(getResources(), R.drawable.vector_android);
+        Drawable drawable = MrVector.inflate(getResources(), R.drawable.vector_clock);
         imageView.setBackground(drawable);
         Bundle bundle = getArguments();
         if (bundle != null) {
